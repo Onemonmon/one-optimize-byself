@@ -1,0 +1,46 @@
+{
+  "name": "one-optimize-byself",
+  "version": "1.0.0",
+  "description": "从零搭建的vue3项目",
+  "scripts": {
+    "dev": "webpack server --config ./build/webpack.config.dev.js",
+    "build": "webpack --config ./build/webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onemonmon/one-optimize-byself.git"
+  },
+  "keywords": [],
+  "author": "onemonmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onemonmon/one-optimize-byself/issues"
+  },
+  "homepage": "https://github.com/Onemonmon/one-optimize-byself#readme",
+  "dependencies": {
+    "echarts": "^5.3.3",
+    "element-plus": "^2.2.12",
+    "one-components-vue3": "^0.1.4",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.24.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.54.3",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.7.4",
+    "vue-loader": "^17.0.0",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
